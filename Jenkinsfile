@@ -4,7 +4,7 @@ pipeline {
         environment {
         JAVA_HOME = 'C:/Program Files/Java/jdk-17' // Ensure this matches your JDK path
         PATH = "${JAVA_HOME}/bin:${env.PATH}"
-
+        }
     tools {
         // Install the Maven version configured as "M2" and add it to the path.
         maven "MAVEN"
