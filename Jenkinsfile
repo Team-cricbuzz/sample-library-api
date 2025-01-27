@@ -2,7 +2,7 @@ pipeline {
     agent any
 
         environment {
-        JAVA_HOME = 'C:\Program Files\Java\jdk-17' // Ensure this matches your JDK path
+        JAVA_HOME = 'C:/Program Files/Java/jdk-17' // Ensure this matches your JDK path
         PATH = "${JAVA_HOME}/bin:${env.PATH}"
 
     tools {
